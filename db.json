@@ -1,0 +1,25 @@
+{
+  "user-accounts": [
+    {
+      "createdIn": 0,
+      "dateCreated": "2022-08-30T11:21:42.618Z",
+      "createdBy": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "dateModified": "2022-08-30T11:21:42.618Z",
+      "modifiedBy": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "isDeleted": true,
+      "userAccountID": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "Dawit Derebie",
+      "surname": "MR",
+      "email": "dawitderebie@gmail.com",
+      "verificationCode": 0,
+      "isEmailVerified": true,
+      "Password": "davance12",
+      "Username": "Davance",
+      "countryCode": "251",
+      "cellphone": "0938486064",
+      "photoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnjEZEy8AQv8cN30eUng3Ru8r9RoTytdqSjHBWaHQQEA&s",
+      "isAccountActive": true,
+      "roleID": 1
+    }
+  ]
+}
