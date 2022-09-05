@@ -157,43 +157,43 @@ const AddEditUserModal = ({isOpen, isEditMode, data, onHide}) => {
                     </div>
                     <div className='row'>
                         <div className="col-4">
-                       <FormGroup className='form-item'>
+                       <FormGroup>
                            <Label for='Name' >Name</Label>
                            <Input required value={name} onChange={onChange} id='name' name='name' placeholder='Name' type='text' />
                        </FormGroup>
                         </div>
                         <div className="col-4">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='surname' >Sur Name</Label>
                                 <Input required value={surname} onChange={onChange} id='surname' name='surname' placeholder='Sur Name' type='text' />
                             </FormGroup>
                         </div>
                         <div className="col-4">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='username' >Username</Label>
                                 <Input required value={username} onChange={onChange} id='username' name='username' placeholder='Username' type='text' />
                             </FormGroup>
                         </div>
                         <div className="col-6">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='email' >Email</Label>
                                 <Input required value={email} onChange={onChange} id='email' name='email' placeholder='Email' type='email' />
                             </FormGroup>
                         </div>
                         <div className="col-2">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='countryCode' >Country Code</Label>
                                 <Input maxLength={5} required value={countryCode} onChange={onChange} id='countryCode' name='countryCode' placeholder='Code' type='text' />
                             </FormGroup>
                         </div>
                         <div className="col-4">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='cellphone' >Cellphone</Label>
                                 <Input required onChange={onChange} minLength={9} maxLength={15} value={cellphone} id='cellphone' name='cellphone' placeholder='Cellphone' type='text' />
                             </FormGroup>
                         </div>
                         <div className="col-6">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='roleID' >Role</Label>
                                 <Input required value={roleID} onChange={onChange} id='roleID' name='roleID' placeholder='Role' type='select' >
                                     <option value={1}>Role 1</option>
@@ -203,7 +203,7 @@ const AddEditUserModal = ({isOpen, isEditMode, data, onHide}) => {
                             </FormGroup>
                         </div>
                         <div className="col-6">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='facilityID' >Facility</Label>
                                 <Input required value={facilityID} onChange={onChange} id='facilityID' name='facilityID' placeholder='Facility' type='select' >
                                     <option value={1}>Facility 1</option>
@@ -213,7 +213,7 @@ const AddEditUserModal = ({isOpen, isEditMode, data, onHide}) => {
                             </FormGroup>
                         </div>
                         <div className="col-6">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='password' >Password</Label>
                                 <Input invalid={password !== confirmPassword} minLength={8} required value={password} onChange={onChange} id='password' name='password' placeholder='Password' type='password' />
                                 <FormFeedback>
@@ -222,7 +222,7 @@ const AddEditUserModal = ({isOpen, isEditMode, data, onHide}) => {
                             </FormGroup>
                         </div>
                         <div className="col-6">
-                            <FormGroup className='form-item'>
+                            <FormGroup>
                                 <Label for='confirmPassword' >Confirm Password</Label>
                                 <Input pattern={password} invalid={password !== confirmPassword} minLength={8} required value={confirmPassword} onChange={onChange} id='confirmPassword' name='confirmPassword' placeholder='Confirm Password' type='password' />
                             </FormGroup>

@@ -47,7 +47,6 @@ const SingleUserView = () => {
                     <CardBody>
                         <div className='user-avatar-section'>
                             <div className='d-flex align-items-center flex-column'>
-                                {/*{renderUserImg()}*/}
                                 <Avatar
                                     initials
                                     color='light-primary'
@@ -74,26 +73,6 @@ const SingleUserView = () => {
                                 </div>
                             </div>
                         </div>
-                        {/*<div className='d-flex justify-content-around my-2 pt-75'>*/}
-                        {/*    <div className='d-flex align-items-start me-2'>*/}
-                        {/*        <Badge color='light-primary' className='rounded p-75'>*/}
-                        {/*            <Check className='font-medium-2' />*/}
-                        {/*        </Badge>*/}
-                        {/*        <div className='ms-75'>*/}
-                        {/*            <h4 className='mb-0'>1.23k</h4>*/}
-                        {/*            <small>Tasks Done</small>*/}
-                        {/*        </div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className='d-flex align-items-start'>*/}
-                        {/*        <Badge color='light-primary' className='rounded p-75'>*/}
-                        {/*            <Briefcase className='font-medium-2' />*/}
-                        {/*        </Badge>*/}
-                        {/*        <div className='ms-75'>*/}
-                        {/*            <h4 className='mb-0'>568</h4>*/}
-                        {/*            <small>Projects Done</small>*/}
-                        {/*        </div>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                         <h4 className='fw-bolder border-bottom pb-50 mb-1'>Details</h4>
                         <div className='info-container'>
                                 <ul className='list-unstyled'>
@@ -125,14 +104,6 @@ const SingleUserView = () => {
                                     </li>
                                 </ul>
                         </div>
-                        {/*<div className='d-flex justify-content-center pt-2'>*/}
-                        {/*    <Button color='primary' onClick={() => setShow(true)}>*/}
-                        {/*        Edit*/}
-                        {/*    </Button>*/}
-                        {/*    <Button className='ms-1' color='danger' outline onClick={handleSuspendedClick}>*/}
-                        {/*        Suspended*/}
-                        {/*    </Button>*/}
-                        {/*</div>*/}
                     </CardBody>
                 </Card>
                 </div>
